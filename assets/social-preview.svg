@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <!-- Background -->
+  <rect width="1280" height="640" fill="#FAFAF7"/>
+
+  <!-- Main heading -->
+  <text x="80" y="180" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="64" font-weight="500" fill="#1A1A1A">
+    Manglish skills
+  </text>
+
+  <!-- Subheading -->
+  <text x="80" y="225" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="22" fill="#5F5E5A">
+    Make your AI agent talk like Malaysian lah.
+  </text>
+
+  <!-- Divider -->
+  <line x1="80" y1="280" x2="1200" y2="280" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <!-- Code block container -->
+  <rect x="80" y="320" width="1120" height="240" rx="12" fill="#FFFFFF" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <!-- Prompt label -->
+  <text x="110" y="360" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="14" fill="#888780">
+    YOU
+  </text>
+
+  <!-- User prompt -->
+  <text x="110" y="390" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="20" fill="#1A1A1A">
+    Why my React component re-render?
+  </text>
+
+  <!-- Response label -->
+  <text x="110" y="440" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="14" fill="#888780">
+    AGENT (manglish-mode)
+  </text>
+
+  <!-- Manglish response -->
+  <text x="110" y="470" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="20" fill="#1A1A1A">
+    <tspan x="110" dy="0">Aiyo, you pass inline object as prop is it? Every render new</tspan>
+    <tspan x="110" dy="28">reference one, child component think prop change, re-render</tspan>
+    <tspan x="110" dy="28">lor. useMemo lah.</tspan>
+  </text>
+</svg>

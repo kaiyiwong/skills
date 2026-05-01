@@ -1,0 +1,7 @@
+{
+  "name": "kaiyiwong-skills",
+  "skills": [
+    "./skills/voice/manglish-mode",
+    "./skills/voice/manglish-terse"
+  ]
+}
